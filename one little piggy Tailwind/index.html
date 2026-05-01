@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="flex justify-center items-center m-0 bg-white min-h-screen">
+      <!-- .pig-container -->
+      <div class="relative w-[250px] h-[250px]">
+        <!-- .ear.left -->
+        <div
+          class="absolute w-[75px] h-[75px] bg-[#f9beca] border-[6px] border-black rounded-full top-[15px] left-[20px]"
+        ></div>
+
+        <!-- .ear.right -->
+        <div
+          class="absolute w-[75px] h-[75px] bg-[#f9beca] border-[6px] border-black rounded-full top-[15px] right-[20px]"
+        ></div>
+
+        <!-- .face -->
+        <div
+          class="absolute w-[200px] h-[200px] bg-[#f9beca] border-[6px] border-black rounded-full top-[40px] left-[25px] box-border"
+        >
+          <!-- .eye.left -->
+          <div
+            class="absolute w-[55px] h-[55px] bg-white border-[6px] border-black rounded-full top-[40px] left-[30px] flex justify-center items-center box-border after:content-[''] after:w-[20px] after:h-[30px] after:bg-black after:rounded-full"
+          ></div>
+
+          <!-- .eye.right -->
+          <div
+            class="absolute w-[55px] h-[55px] bg-white border-[6px] border-black rounded-full top-[40px] right-[30px] flex justify-center items-center box-border after:content-[''] after:w-[20px] after:h-[30px] after:bg-black after:rounded-full"
+          ></div>
+
+          <!-- .snout -->
+          <div
+            class="absolute w-[100px] h-[60px] bg-[#f56c8b] border-[6px] border-black rounded-[30px] bottom-[25px] left-[44px] flex justify-around items-center px-[15px] box-border"
+          >
+            <!-- .nostril -->
+            <div class="w-[16px] h-[18px] bg-black rounded-full"></div>
+            <!-- .nostril -->
+            <div class="w-[16px] h-[18px] bg-black rounded-full"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
